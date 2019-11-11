@@ -9,8 +9,9 @@ body{
 	display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
-	margin:20px;
-	padding:10% 35%;
+	width:device-width;
+	margin:1%;
+	padding:11% 35%;
 	}
 
 .button{
