@@ -322,12 +322,9 @@ textarea{
   padding-bottom: 50%;
   padding-top: 10%;
 }
-.orientaion {
-  padding-top:10%;
-  padding-bottom: 20%;
-  writing-mode: vertical-rl;
-  text-orientation: sideways-right;
-  padding-left: 14%;
+.orientaion{
+  transform: rotateZ(180deg);
+  margin-left: 22%;
 }
 .check {
   margin-top: 3%;
