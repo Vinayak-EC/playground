@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+<table>
+  <thead>
+<tr>
+<td ><strong>ID</strong></td>
+<td ><strong>Parent id</strong></td>
+<td ><strong>Project</strong></td>
+<td ><strong>Subject</strong></td>
+<td ><strong>Type</strong></td>
+<td ><strong>Status</strong></td>
+<td ><strong>Priority</strong></td>
+<td ><strong>Assignee</strong></td>
+<td ><strong>Category</strong></td>
+<td ><strong>Start Date</strong></td>
+<td ><strong>Finish Date</strong></td>
+<td ><strong> Estimated Time</strong></td>
+<td ><strong>Spent time</strong></td>
+<td ><strong>Progress (%)</strong></td>
+<td ><strong>Description</strong></td>
+</tr>
+  </thead>
+  <tbody id="disp">
+  </tbody>
+</table>
+</div>
+</body>
+<script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var response = JSON.parse(xhttp.responseText);
+      var data = response.data;
+      var output = '';
+      for(var i = 0;i < data.length;i++){
+        output += "<tr>";
+        output += '<td>'+data[i].id+'</td>';
+        output += '<td>'+data[i].parent_id+'</td>';
+        output += '<td>'+data[i].project+'</td>';
+        output += '<td>'+data[i].subject+'</td>';
+        output += '<td>'+data[i].type+'</td>';
+        output += '<td>'+data[i].status+'</td>';
+        output += '<td>'+data[i].priority+'</td>';
+        output += '<td>'+data[i].assignee+'</td>';
+        output += '<td>'+data[i].category+'</td>';
+        output += '<td>'+data[i].start_date+'</td>';
+        output += '<td>'+data[i].finish_date+'</td>';
+        output += '<td>'+data[i].estimated+'</td>';
+        output += '<td>'+data[i].spent_time+'</td>';
+        output += '<td>'+data[i].progress+'</td>';
+        output += '<td>'+data[i].description+'</><tr>';
+      }
+      document.getElementById('disp').innerHTML = output;
+    }
+};
+xhttp.open("GET", "new.json", true);
+xhttp.send();
+
+</script>
+</head>
+</html>
