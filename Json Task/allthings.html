@@ -38,27 +38,27 @@ return resp.json();
 .then(function(data){
 console.log(data)
 console.log(data[0])
-var output = "";
+var temp = "";
 
 for(var i = 0; i < data.length; i++){
-  output += "<tr>";
-  output += "<td>"+data[i].id+"</td>";
-  output += "<td>"+data[i].parent_id+"</td>";
-  output += "<td>"+data[i].project+"</td>";
-  output += "<td>"+data[i].subject+"</td>";
-  output += "<td>"+data[i].type+"</td>";
-  output += "<td>"+data[i].status+"</td>";
-  output += "<td>"+data[i].priority+"</td>";
-  output += "<td>"+data[i].assignee+"</td>";
-  output += "<td>"+data[i].category+"</td>";
-  output += "<td>"+data[i].start_date+"</td>";
-  output += "<td>"+data[i].finish_date+"</td>";
-  output += "<td>"+data[i].estimated_time+"</td>";
-  output += "<td>"+data[i].spent_time+"</td>";
-  output += "<td>"+data[i].progress+"</td>";
-  output += "<td>"+data[i].description+"</td>  </tr>";
+  temp += "<tr>";
+  temp += "<td>"+data[i].id+"</td>";
+  temp += "<td>"+data[i].parent_id+"</td>";
+  temp += "<td>"+data[i].project+"</td>";
+  temp += "<td>"+data[i].subject+"</td>";
+  temp += "<td>"+data[i].type+"</td>";
+  temp += "<td>"+data[i].status+"</td>";
+  temp += "<td>"+data[i].priority+"</td>";
+  temp += "<td>"+data[i].assignee+"</td>";
+  temp += "<td>"+data[i].category+"</td>";
+  temp += "<td>"+data[i].start_date+"</td>";
+  temp += "<td>"+data[i].finish_date+"</td>";
+  temp += "<td>"+data[i].estimated_time+"</td>";
+  temp += "<td>"+data[i].spent_time+"</td>";
+  temp += "<td>"+data[i].progress+"</td>";
+  temp += "<td>"+data[i].description+"</td>  </tr>";
 }
-document.getElementById("disp").innerHTML = output;
+document.getElementById("disp").innerHTML = temp;
 });
 
 </script>
