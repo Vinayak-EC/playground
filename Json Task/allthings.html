@@ -1,0 +1,66 @@
+<!DOCTYPE>
+<HTML>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+<table>
+  <thead>
+<tr>
+<td align="center"><strong>ID</strong></td>
+<td align="center"><strong>Parent id</strong></td>
+<td align="center"><strong>Project</strong></td>
+<td align="center"><strong>Subject</strong></td>
+<td align="center"><strong>Type</strong></td>
+<td align="center"><strong>Status</strong></td>
+<td align="center"><strong>Priority</strong></td>
+<td align="center"><strong>Assignee</strong></td>
+<td align="center"><strong>Category</strong></td>
+<td align="center"><strong>Start Date</strong></td>
+<td align="center"><strong>Finish Date</strong></td>
+<td align="center"><strong> Estimated Time</strong></td>
+<td align="center"><strong>Spent time</strong></td>
+<td align="center"><strong>Progress (%)</strong></td>
+<td align="center"><strong>Description</strong></td>
+</tr>
+  </thead>
+  <tbody id="disp">
+  </tbody>
+</table>
+</div>
+</body>
+<script>
+fetch("../new.json")
+.then(function(resp){
+return resp.json();
+})
+.then(function(data){
+console.log(data)
+console.log(data[0])
+var output = "";
+
+for(var i = 0; i < data.length; i++){
+  output += "<tr>";
+  output += "<td>"+data[i].id+"</td>";
+  output += "<td>"+data[i].parent_id+"</td>";
+  output += "<td>"+data[i].project+"</td>";
+  output += "<td>"+data[i].subject+"</td>";
+  output += "<td>"+data[i].type+"</td>";
+  output += "<td>"+data[i].status+"</td>";
+  output += "<td>"+data[i].priority+"</td>";
+  output += "<td>"+data[i].assignee+"</td>";
+  output += "<td>"+data[i].category+"</td>";
+  output += "<td>"+data[i].start_date+"</td>";
+  output += "<td>"+data[i].finish_date+"</td>";
+  output += "<td>"+data[i].estimated_time+"</td>";
+  output += "<td>"+data[i].spent_time+"</td>";
+  output += "<td>"+data[i].progress+"</td>";
+  output += "<td>"+data[i].description+"</td>  </tr>";
+}
+document.getElementById("disp").innerHTML = output;
+});
+
+</script>
+</head>
+</HTML>
