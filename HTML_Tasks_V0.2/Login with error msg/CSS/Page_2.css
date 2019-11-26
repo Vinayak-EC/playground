@@ -1,0 +1,45 @@
+body{
+    font-family: calibri;
+    background-color: #F6F8F9;
+    margin: 20px;
+}
+table{
+    background-color: #fff;
+    padding:8.5% 40.5%;
+    border-radius: 20Px;
+}
+
+.input-container{
+    border: 1px solid;
+    border-color: #D3D3D3;
+    border-radius: 10px;
+    padding: 3%;
+    width: 140%;
+  }
+  .login{
+      text-decoration: underline;
+      padding-bottom: 15%;
+  }
+  .gap{
+      padding: 3%; 
+    }
+.message{
+    color: #BF574A;
+}
+.remember{
+    padding-top: 8%;
+    padding-bottom: 18%;
+    font-size: 10px;
+}
+button{
+    padding: 9%;
+    background-color: #32BDD2;
+    border-color: #32BDD2;
+    border: 1px;
+    border-radius: 20px;
+    color:#fff;
+    width:132px;
+}
+.password{
+    padding-top: 10%;
+}

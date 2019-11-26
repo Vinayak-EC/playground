@@ -1,0 +1,46 @@
+body{
+    font-family: calibri;
+    background-color: #F6F8F9;
+    margin: 20px;
+}
+.container{
+    background-color: #fff;
+    padding-left: 35%;
+    padding-top:10%;
+    padding-bottom:15%;
+    border-radius: 20Px;
+}
+
+.login{
+    text-decoration: underline;
+    padding-bottom: 3%;
+}
+
+.input-container{
+    border: 1px solid;
+    border-color: #D3D3D3;
+    border-radius: 10px;
+    height: 30px;
+    width: 45%;
+  }
+  .gap{
+    padding-bottom: 8px;
+  }
+  .center-gap{
+   padding-bottom: 8%;
+  }
+  .middle{
+      padding-bottom: 3%;
+  }
+  button{
+    padding: 1%;
+    background-color: #32BDD2;
+    border-color: #32BDD2;
+    border: 1px;
+    border-radius: 20px;
+    color:#fff;
+    width:132px;
+}
+.message{
+    color: #BF574A;
+}

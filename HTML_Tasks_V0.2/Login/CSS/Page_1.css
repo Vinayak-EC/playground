@@ -1,0 +1,54 @@
+body{
+    font-family: calibri;
+   margin:25px;
+}
+.container{
+    background-color: #F6F8F9;
+}
+.input-container{
+    border-radius: 5px;
+    border:1px solid #D3D3D3;
+    width: 140%;
+    height: 27px;
+}
+table{
+    background-color: #fff;
+    padding: 11% 41%  12% 40%;
+    border-radius:10px;
+}
+
+.login{
+    text-decoration: underline;
+    padding-bottom: 10%;
+    font-size:16px;
+}
+.password{
+padding-bottom: 30px;
+}
+.login-button{
+   background-color: #32BDD2;
+   border: 1px;
+   height: 40.22px;
+   width: 130px;
+   border-radius:50px;
+   color:#fff;
+   margin-top: 30%;
+   font-size: 12px;
+}
+.remember-left{
+    font-size: 10px;
+}
+
+.remember{
+    font-size: 10px;
+    text-decoration:underline;
+    float: right;
+}
+
+td{
+    font-size: 12px;
+    padding: 0px;
+}
+tr{
+    padding: 0px;
+}
