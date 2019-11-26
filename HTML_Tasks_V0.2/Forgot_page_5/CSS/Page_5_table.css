@@ -1,0 +1,31 @@
+body{
+    font-family: calibri;
+     margin-top:18%;
+     margin-left:38%;
+}
+.container{
+    background-color: #00000067;
+}
+
+table{
+    background-color: #fff;
+    padding: 6% 8%  8% 8%;
+    border-radius:10px;
+}
+
+.login{
+    text-decoration: underline;
+    padding-bottom: 10%;
+    font-size:16px;
+    color: #595959;
+}
+
+td{
+    font-size: 12px;
+    padding: 0px;
+   
+    color: #747474;
+}
+tr{
+    padding: 0px;
+}

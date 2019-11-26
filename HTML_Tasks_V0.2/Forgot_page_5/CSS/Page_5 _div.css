@@ -1,0 +1,23 @@
+body{
+    font-family: calibri;
+    background-color: #00000067;
+    margin-top: 17%;
+    margin-left: 36%;
+}
+.container{
+    background-color: #fff;
+    padding: 7%;
+    margin-right: 52%;
+    border-radius: 8Px;
+}
+
+.login{
+    text-decoration: underline;
+    padding-bottom: 10%;
+    color: #595959;
+}
+
+.message{
+    color: #747474;
+    font-size: 12px;
+}
