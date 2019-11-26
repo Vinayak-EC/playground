@@ -1,0 +1,26 @@
+body{
+    font-family: calibri;
+    margin-left: 44%;
+    background-color: #fff;
+}
+table{
+    background-color: #fff;
+   }
+
+.login{
+    
+    padding-top: 20%;
+}
+
+.rejected{
+    padding-bottom: 20%;
+}
+.card {
+    box-shadow: 0px 4px 10px 0 rgba(0,0,0,0.2);
+    background-color: #fff;
+    font-size: 14px;
+    padding-left: 3%;
+    color: #747474;
+    letter-spacing: 1.4px;
+    margin-right: 75%;
+  }
