@@ -1,45 +1,65 @@
 body{
-    font-family: calibri;
-    background-color: #F6F8F9;
-    margin: 20px;
+    margin: 0;
+    padding: 0%;
+background-color: #F6F8F9;
+font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.login{
+    color: #595959;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    border-bottom: 3px solid #595959;
+    float: left;
+    margin-bottom: 11%;
 }
 table{
-    background-color: #fff;
-    padding:8.5% 40.5%;
-    border-radius: 20Px;
+    border-radius: 15px;
+    background: #fff;
+    padding: 8% 30%;
+        width: 94%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
 }
-
-.input-container{
-    border: 1px solid;
-    border-color: #D3D3D3;
-    border-radius: 10px;
-    padding: 3%;
-    width: 140%;
-  }
-  .login{
-      text-decoration: underline;
-      padding-bottom: 15%;
-  }
-  .gap{
-      padding: 3%; 
-    }
+.email{
+    color: #505050;
+    font-size: 12px;
+    padding-bottom: 1%;
+}
 .message{
     color: #BF574A;
+    font-size: 11px;
+}
+.center{
+    padding-top: 8%;
+}
+.container{
+    width:100%;
+    padding-top:4%;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
 }
 .remember{
-    padding-top: 8%;
-    padding-bottom: 18%;
+    color: #707070;
     font-size: 10px;
+    
+}
+.underline{
+    border-bottom: 2px solid #595959;
+    text-decoration: none;
+    float:right;
 }
 button{
-    padding: 9%;
+    width: 27%;
+    padding-top: 2%;
+    padding-bottom:2%;
+    color: #fff;
+    border: 1px solid #32BDD2;
+    border-radius:20px;
     background-color: #32BDD2;
-    border-color: #32BDD2;
-    border: 1px;
-    border-radius: 20px;
-    color:#fff;
-    width:132px;
-}
-.password{
-    padding-top: 10%;
+   font-size: 10px;
+   font-weight: 700;
+   margin-top: 13%;
 }

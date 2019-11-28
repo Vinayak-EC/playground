@@ -1,5 +1,5 @@
 body{
-    font-family: calibri;
+    font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    margin:25px;
 }
 .container{
@@ -8,30 +8,40 @@ body{
 .input-container{
     border-radius: 5px;
     border:1px solid #D3D3D3;
-    width: 100%;
-    height: 27px;
+    width: 155%;
+    padding: 5%;
 }
 table{
+    padding: 8% 38%;
     background-color: #fff;
-    padding: 11% 40% 11% 42.5%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
     border-radius:10px;
 }
 
 .login{
-    text-decoration: underline;
-    padding-bottom: 5%;
+    border-bottom: 3px solid #595959;
+    float: left;
+    margin-bottom: 11%;
+    padding-bottom: 1%;
     font-size:16px;
     color: #595959;
 }
 .login-button{
    background-color: #32BDD2;
    border: 1px;
-   height: 40.22px;
-   width: 130px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+   width: 54%;
    border-radius:50px;
    color:#fff;
    margin-top: 25%;
    font-size: 12px;
+   font-weight: 700;
+   font-size: 10px;
 }
 td{
     font-size: 12px;
@@ -43,10 +53,11 @@ tr{
 .center-gap{
     color: #747474;
     padding-bottom: 20%;
-    font-size: 10px;
+    font-size: 12px;
   }
 .email{
        color:#747474;
+       padding-bottom: 5%;
   }
 .message{
     color: #BF574A;

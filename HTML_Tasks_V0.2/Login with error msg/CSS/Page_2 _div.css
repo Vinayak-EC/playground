@@ -1,27 +1,51 @@
 body{
-    font-family: calibri;
-    background-color: #F6F8F9;
-    margin: 20px;
+    margin: 2% 1% 2% 2%;
+    padding: 0%;
+background-color: #F6F8F9;
+font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.login{
+    color: #595959;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    border-bottom: 3px solid #595959;
+    width: fit-content;
+    margin-bottom: 5%;
 }
 .container{
     background-color: #fff;
     padding-left: 35%;
-    padding-top:10%;
-    padding-bottom:9%;
+    padding-top:8%;
+    padding-bottom:8%;
     border-radius: 20Px;
 }
 
-.login{
-    text-decoration: underline;
-    padding-bottom: 3%;
+.email{
+    color: #505050;
+    font-size: 12px;
+    padding-bottom: 1%;
 }
-
+.message{
+    color: #BF574A;
+    font-size: 11px;
+}
+.center{
+    padding-top: 1%;
+}
+.remember{
+    color: #707070;
+    font-size: 10px;
+    float: left;
+    padding-top: 1%;
+    
+}
 .input-container{
     border: 1px solid;
     border-color: #D3D3D3;
     border-radius: 10px;
-    height: 30px;
-    width: 45%;
+    padding-top: 1.25%;
+    padding-bottom: 1.25%;
+    width: 50%;
   }
   .gap{
     padding-bottom: 8px;
@@ -34,24 +58,34 @@ body{
   }
   .cell{
     display: inline-block;
-    padding-top:2%;
+
   }
   .child{
   float: right;
-  padding-right: 55%;
+  margin-right: 50%;
+  border-bottom: 2px solid #595959;
+  width: fit-content;
+  padding-bottom: 0.3%;
+
   }
   .button-gap{
       padding-bottom: 7%;
   }
   button{
-    padding: 1%;
+    padding: 1.75%;
     background-color: #32BDD2;
     border-color: #32BDD2;
     border: 1px;
     border-radius: 20px;
     color:#fff;
-    width:132px;
+    width:16%;
+    font-size:10px;
+    font-weight: 700;
+    margin-top: 4%;
 }
 .message{
     color: #BF574A;
+}
+input[type="checkbox" i] {
+    margin: 0% 0px 0px 0px;
 }

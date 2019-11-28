@@ -1,45 +1,61 @@
 body{
-    font-family: calibri;
-    background-color: #F6F8F9;
-    margin: 20px;
+    margin: 0;
+    padding: 0%;
+background-color: #F6F8F9;
+font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container{
+    padding: 11% 37%;
+    border-radius: 10px;
     background-color: #fff;
-    padding-left: 35%;
-    padding-top:10%;
-    padding-bottom:15%;
-    border-radius: 20Px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .login{
-    text-decoration: underline;
-    padding-bottom: 3%;
+    color: #595959;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    border-bottom: 3px solid #595959;
+    width: fit-content;
+    margin-bottom: 11%;
 }
 
 .input-container{
     border: 1px solid;
     border-color: #D3D3D3;
     border-radius: 10px;
-    height: 30px;
-    width: 45%;
+    padding-top: 5%;
+    width: 140%;
   }
   .gap{
-    padding-bottom: 8px;
+    padding-bottom: 2%;
+    color: #747474;
+    font-size: 12px;
   }
   .center-gap{
-   padding-bottom: 8%;
+   padding-bottom: 25%;
+   
   }
   .middle{
-      padding-bottom: 3%;
+      padding-bottom: 15%;
+      color: #747474;
+      font-size: 12px;
   }
   button{
-    padding: 1%;
+    padding-top: 5%;
+    padding-bottom:5%;
     background-color: #32BDD2;
     border-color: #32BDD2;
     border: 1px;
     border-radius: 20px;
     color:#fff;
-    width:132px;
+    width:40%;
+    font-weight: 700;
+    font-size: 10px;
 }
 .message{
     color: #BF574A;
