@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F6F8F9;
+}
+
+.container {
+    width: 99%;
+    overflow: hidden;
+    padding: 0.5%;
+    background-color: #fff;
+}
+
+.menu {
+    width: 82%;
+    float: left;
+    background-color: #fff;
+}
+
+.avatar {
+    width: 10%;
+    float: right;
+    background-color: #fff;
+}
+
+.john {
+    width: 5%;
+    float: right;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.aero {
+    width: 3%;
+    float: right;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.menu1 {
+    padding-left: 1%;
+}
+
+.aero1 {
+    text-align: left;
+}
+
+.avatar1 {
+    text-align: right;
+}
+
+.john1 {
+    text-align: center;
+    color: #595959;
+    font-size: 13px;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.sub-cntnr0 {
+    background-color: #FFFFFF;
+    width: 8%;
+    float: left;
+}
+
+.sub-cntnr1 {
+    background-color: #FCFCFC;
+    width: 90%;
+    float: left;
+}
+
+.main-container {
+    margin: 1.5% 0% 1.5% 1.5%;
+}
+
+.sub-cntnr2 {
+    padding: 2.5% 0% 0% 2.5%;
+    background-color: #FCFCFC;
+}
+
+.reque {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    transform: rotateZ(-90deg);
+    top: 26%;
+    position: absolute;
+}
+
+.dot {
+    bottom: 0%;
+    margin-left: 25%;
+    margin-top: 170%;
+    margin-bottom: 35%;
+}
+
+.note {
+    color: #B5B5B5;
+    font-size: 14px;
+}
+
+.lorem {
+    text-align: left;
+    margin-bottom: 34%;
+    color: #747474;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+
+.draft {
+    color: #747474;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
