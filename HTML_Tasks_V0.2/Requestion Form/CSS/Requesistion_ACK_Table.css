@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #E0E0E0;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-color: grey;
+}
+
+table {
+    width: 100%;
+}
+
+.menu_icon {
+    width: 2.5%;
+    background-color: #fff;
+}
+
+.avatar {
+    width: 8%;
+    text-align: right;
+    background-color: #fff;
+}
+
+.john {
+    text-align: center;
+    width: 4%;
+    color: #595959;
+    letter-spacing: 0.9px;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.menu {
+    width: 70%;
+    padding-left: 1%;
+    background-color: #fff;
+}
+
+.main-container {
+    background-color: #F6F8F9;
+    width: 98%;
+    margin: 1% 4% 1% 1%;
+}
+
+.tab-1 {
+    width: 10%;
+    background-color: #fff;
+}
+
+.tab-2 {
+    width: 88%;
+    background-color: #FCFCFC;
+}
+
+.table {
+    padding: 2% 0 10% 2%;
+}
+
+.req {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    transform: rotateZ(-90deg);
+    position: absolute;
+    top: 20%;
+}
+
+.dot {}
+
+.note {
+    color: "#000";
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3% 0 2% 0;
+}
+
+.lorem {
+    color: #747474;
+    font-size: 14px;
+    padding: 0.75% 0 2% 0;
+    padding-bottom: 22%;
+    letter-spacing: 1.4px;
+}
+
+.draft {
+    font-size: 14px;
+    color: #747474;
+    font-weight: 700;
+    line-height: 200%
+}
