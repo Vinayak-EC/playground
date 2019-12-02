@@ -19,87 +19,6 @@ body {
     padding: 1% 1% 1% 0;
 }
 
-table {
-    width: 100%;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 0px;
-    border-color: grey;
-}
-
-.avatar {
-    text-align: right;
-    padding-left: 20px;
-}
-
-.john {
-    width: 57px;
-    height: 14px;
-    text-align: right;
-    font-size: 12px;
-}
-
-.card {
-    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    font-size: 14px;
-    color: #747474;
-    height: 70px;
-}
-
-.menu_icon {
-    text-align: right;
-    width: 3%;
-    padding-right: 2%;
-    top: 28px;
-    left: 989px;
-}
-
-table {
-    width: 100%;
-}
-
-.avatar {
-    text-align: right;
-    padding-left: 20px;
-}
-
-.john {
-    width: 57px;
-    height: 14px;
-    text-align: right;
-    font-size: 12px;
-}
-
-.card {
-    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    font-size: 14px;
-    color: #747474;
-    height: 70px;
-}
-
-.menu {
-    padding-left: 10px;
-}
-
-.request {
-    border-bottom-style: solid;
-    border-color: #32BDD2;
-    color: #505050;
-}
-
-.search {
-    width: 75%;
-    height: 35px;
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #B5B5B5;
-    border-width: 1px;
-    padding-left: 20px;
-    margin-left: 10%;
-}
-
 .main-container {
     width: 96%;
     margin: 2% 1% 2% 2%;
@@ -218,6 +137,16 @@ table {
     color: #5A5A5A;
     text-align: right;
     padding-right: 1%;
+}
+
+.dot-yellow {
+    width: 1vw;
+    height: 1vw;
+    background-color: #FFC60A;
+    border-radius: 52%;
+    float: right;
+    margin-right: 0%;
+    margin-top: 0;
 }
 
 .dot {
