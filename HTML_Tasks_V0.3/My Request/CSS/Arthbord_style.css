@@ -1,0 +1,38 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: #FFFFFF;
+        }
+        
+        .main-Container {
+            background-color: #fff;
+            position: absolute;
+            width: 15%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            box-shadow: 0px 3px 10px #00000029;
+        }
+        
+        .email {
+            color: #595959;
+            font-size: 14px;
+            margin: 5% 0% 5% 10%;
+            font-weight: 700;
+        }
+        
+        .approval {
+            color: #595959;
+            font-size: 14px;
+            margin: 5% 0% 5% 10%;
+        }
+        
+        .top {
+            margin-top: 20%;
+        }
+        
+        .down {
+            margin-bottom: 20%;
+        }
