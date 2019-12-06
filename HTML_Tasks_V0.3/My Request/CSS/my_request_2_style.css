@@ -1,0 +1,249 @@
+                    body {
+                        margin: 0;
+                        padding: 0;
+                        font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        background-color: #F6F8F9;
+                    }
+                    
+                    table {
+                        display: table;
+                        border-collapse: separate;
+                        border-spacing: 0px;
+                        border-color: grey;
+                    }
+                    
+                    .menu {
+                        vertical-align: middle;
+                        width: 77%;
+                        background-color: #fff;
+                    }
+                    
+                    .avatar {
+                        width: 12%;
+                        text-align: right;
+                        background-color: #fff;
+                    }
+                    
+                    .background {
+                        background-color: #fff;
+                        border-bottom: 5px solid #F6F8F9;
+                        padding: 3%;
+                    }
+                    
+                    .filter-row {
+                        background-color: #fff;
+                        border-bottom: 3px solid #F6F8F9;
+                        padding: 1.5% 1.5% 1.5% 3%;
+                    }
+                    
+                    .john {
+                        width: 5%;
+                        text-align: center;
+                        background-color: #fff;
+                        color: #595959;
+                        letter-spacing: 0.9px;
+                        font-size: 12px;
+                        vertical-align: middle;
+                    }
+                    
+                    .dropdown {
+                        width: 2%;
+                        vertical-align: middle;
+                        text-align: center;
+                        background-color: #fff;
+                    }
+                    
+                    .main-Container {
+                        background-color: #fff;
+                        width: 40%;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        padding: 8% 28% 8% 28%;
+                        border-radius: 20px;
+                    }
+                    
+                    .login {
+                        border-bottom: 2px solid #595959;
+                        padding-bottom: 5px;
+                        width: fit-content;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #595959;
+                    }
+                    
+                    .my {
+                        color: #505050;
+                        font-size: 16px;
+                        font-weight: 700;
+                        border-bottom: 3px solid #32BDD2;
+                        padding-bottom: 5px;
+                        background-color: #fff;
+                    }
+                    
+                    .my-width {
+                        width: 20%;
+                    }
+                    
+                    .search {
+                        width: 53%;
+                        border: 1px solid #B5B5B5;
+                        border-radius: 50px;
+                    }
+                    
+                    .request {
+                        width: 20%;
+                        text-align: center;
+                    }
+                    
+                    .email {
+                        color: #595959;
+                        font-size: 12px;
+                        margin-top: 5%;
+                    }
+                    
+                    .search-width {
+                        width: 40%;
+                    }
+                    
+                    .icon {
+                        width: 3%;
+                    }
+                    
+                    .search-place {
+                        width: 100%;
+                        padding: 1.5% 0 1.5% 0;
+                        border-radius: 10px;
+                        border: 0px solid #D3D3D3;
+                    }
+                    
+                    .sucesess {
+                        background-color: #32BDD2;
+                        border: 1px solid #32BDD2;
+                        color: #fff;
+                        font-size: 12px;
+                        width: 55%;
+                        padding: 4% 0 4% 0;
+                        border-radius: 20px;
+                        margin-left: 40%;
+                    }
+                    
+                    .left {
+                        float: right;
+                        clear: right;
+                    }
+                    
+                    .dot {
+                        width: 1vw;
+                        height: 1vw;
+                        background-color: #24D081;
+                        border-radius: 52%;
+                        float: right;
+                    }
+                    
+                    .filter-icon {
+                        width: 5%;
+                        background-color: #fff;
+                    }
+                    
+                    .showing {
+                        color: #5A5A5A;
+                        font-size: 12px;
+                    }
+                    
+                    .bold {
+                        color: showing;
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                    
+                    .pur {
+                        color: #505050;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    
+                    .small {
+                        color: #505050;
+                        font-size: 12px;
+                    }
+                    
+                    .pur-width {
+                        width: 25%;
+                    }
+                    
+                    .icon-width {
+                        width: 48%;
+                        text-align: center;
+                    }
+                    
+                    .aproved {
+                        width: 25%;
+                        vertical-align: middle;
+                        color: #5A5A5A;
+                        font-size: 14px;
+                        text-align: right;
+                    }
+                    
+                    .dot-width {
+                        width: 2%;
+                        vertical-align: middle;
+                    }
+                    
+                    .pur-row {
+                        background-color: #fff;
+                        border-bottom: 3px solid #F6F8F9;
+                        padding: 3%;
+                    }
+                    
+                    .show {
+                        width: 50%;
+                    }
+                    
+                    .show-more {
+                        color: #909090;
+                        font-size: 12px;
+                        font-weight: 700;
+                        float: right;
+                    }
+                    
+                    .more {
+                        width: 50%;
+                        vertical-align: middle;
+                    }
+                    
+                    .padding {
+                        padding: 1.5%;
+                    }
+                    
+                    .down-icon {
+                        margin-left: 3%;
+                    }
+                    
+                    .dot-draft {
+                        width: 1vw;
+                        height: 1vw;
+                        background-color: #D0C824;
+                        border: 1px solid #CB9928;
+                        border-radius: 52%;
+                        float: right;
+                    }
+                    
+                    .dot-rejected {
+                        width: 1vw;
+                        height: 1vw;
+                        background-color: #D03E24;
+                        border: 1px solid #D03E24;
+                        border-radius: 52%;
+                        float: right;
+                    }
+                    
+                    .dot-awaiting {
+                        width: 1vw;
+                        height: 1vw;
+                        background-color: #FFC60A;
+                        border: 1px solid #FFC60A;
+                        border-radius: 52%;
+                        float: right;
+                    }
