@@ -1,0 +1,183 @@
+    body {
+        margin: 0%;
+        padding: 0%;
+        font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #F6F8F9;
+    }
+    
+    table {
+        width: 100%;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0px;
+        border-color: grey;
+    }
+    
+    .back {
+        background-color: #fff;
+    }
+    
+    .menu {
+        width: 80%;
+        padding-left: 2%;
+    }
+    
+    .avatar {
+        width: 11%;
+        text-align: right;
+    }
+    
+    .john {
+        width: 6%;
+        text-align: center;
+        letter-spacing: 0.9px;
+    }
+    
+    .dropdown {
+        width: 3%;
+    }
+    
+    .container {
+        background-color: #F6F8F9;
+        padding: 2%;
+    }
+    
+    .req {
+        width: 5%;
+        background-color: #fff;
+    }
+    
+    .all {
+        padding: 4%;
+    }
+    
+    .main-container {
+        width: 95%;
+        background-color: #FCFCFC;
+        padding: 2%;
+    }
+    
+    textarea {
+        margin: 2% 0% 2% 0%;
+        background-color: #FCFCFC;
+    }
+    
+    .self {
+        margin: 1% 0 1% 0;
+        vertical-align: top;
+    }
+    
+    .line {
+        margin-left: 55%;
+        border: 2px;
+        border-left-style: dotted;
+        height: 100%;
+    }
+    
+    .dot-color {
+        margin-left: 40%;
+        text-align: center;
+        float: left;
+        border: 2px solid #F0F0F0;
+        width: 30%;
+        height: 30%;
+        border-radius: 56%;
+        background-color: #32BDD2;
+    }
+    
+    .dot {
+        margin-left: 40%;
+        text-align: center;
+        float: left;
+        border: 2px solid #F0F0F0;
+        width: 30%;
+        height: 30%;
+        border-radius: 56%;
+        background-color: #fff;
+    }
+    
+    .dash {
+        text-align: center;
+        margin-top: 25%;
+    }
+    
+    .requesition {
+        position: absolute;
+        top: 13%;
+        left: 7.5%;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        transform: rotateZ(-90deg);
+        letter-spacing: 2.8px;
+    }
+    
+    .attachment {
+        color: #505050;
+        font-size: 14px;
+        font-weight: 700;
+        padding-left: 1.5%;
+    }
+    
+    .lorem {
+        font-size: 10px;
+        color: #505050;
+        padding-left: 1.5%;
+    }
+    
+    .select {
+        background-color: #fff;
+        border: 1px solid #F0F0F0;
+        padding: 2% 15% 8% 2%;
+    }
+    
+    .computer {
+        color: #000;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+        border: 1px solid #DFEBEF;
+        width: 50%;
+    }
+    
+    .documents {
+        color: #747474;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+    }
+    
+    .sucesess {
+        color: #fff;
+        background-color: #32BDD2;
+        border: 1px solid #32BDD2;
+        width: 20%;
+        padding: 1% 0% 1% 0%;
+        border-radius: 20px;
+        float: right;
+        clear: right;
+        margin-right: 3%;
+    }
+    
+    .draft {
+        width: 50%;
+    }
+    
+    .save {
+        margin: 20% 0 5% 0;
+    }
+    
+    .save-draft {
+        margin: 20% 0 5% 0;
+        width: fit-content;
+        padding: 5px;
+        font-weight: 700;
+        border-bottom: 2px solid #505050;
+        font-size: 10px;
+        color: #505050;
+        float: left;
+        clear: left;
+        vertical-align: middle;
+    }
+    
+    .padding {
+        padding: 2%;
+    }

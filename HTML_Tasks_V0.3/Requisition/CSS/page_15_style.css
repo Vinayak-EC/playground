@@ -1,0 +1,235 @@
+    body {
+        margin: 0%;
+        padding: 0%;
+        font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #F6F8F9;
+    }
+    
+    table {
+        width: 100%;
+        display: table;
+        border-collapse: separate;
+        border-spacing: 0px;
+        border-color: grey;
+    }
+    
+    .back {
+        background-color: #fff;
+        border: 1px solid #F0F0F0;
+        padding: 3%;
+    }
+    
+    .menu {
+        width: 80%;
+        padding-left: 2%;
+    }
+    
+    .avatar {
+        width: 11%;
+        text-align: right;
+    }
+    
+    .john {
+        width: 6%;
+        text-align: center;
+        letter-spacing: 0.9px;
+    }
+    
+    .dropdown {
+        width: 3%;
+    }
+    
+    .container {
+        background-color: #F6F8F9;
+        padding: 2%;
+    }
+    
+    .req {
+        width: 5%;
+        background-color: #fff;
+    }
+    
+    .all {
+        padding: 4%;
+    }
+    
+    .main-container {
+        width: 95%;
+        background-color: #FCFCFC;
+        padding: 2%;
+    }
+    
+    textarea {
+        margin: 2% 0% 2% 0%;
+        background-color: #FCFCFC;
+    }
+    
+    .self {
+        margin: 1% 0 1% 0;
+        vertical-align: top;
+    }
+    
+    .line {
+        margin-left: 55%;
+        border: 2px;
+        border-left-style: dotted;
+        border-color: #F0F0F0;
+        height: 100%;
+    }
+    
+    .dot-color {
+        margin-left: 40%;
+        text-align: center;
+        float: left;
+        border: 2px solid #F0F0F0;
+        width: 30%;
+        height: 30%;
+        border-radius: 56%;
+        background-color: #32BDD2;
+    }
+    
+    .dot {
+        margin-left: 40%;
+        text-align: center;
+        float: left;
+        border: 2px solid #F0F0F0;
+        width: 30%;
+        height: 30%;
+        border-radius: 56%;
+        background-color: #fff;
+    }
+    
+    .dash {
+        text-align: center;
+        margin-top: 25%;
+    }
+    
+    .requesition {
+        position: absolute;
+        top: 13%;
+        left: 7.5%;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        transform: rotateZ(-90deg);
+        letter-spacing: 2.8px;
+    }
+    
+    .color {
+        background-color: #F0F0F0;
+        border: 1px solid #F0F0F0;
+        padding: 1%;
+    }
+    
+    .item {
+        width: 70%;
+    }
+    
+    .add {
+        width: 10%;
+        text-align: left
+    }
+    
+    .img {
+        width: 11.5%;
+    }
+    
+    .item-1 {
+        width: 7%;
+        background-color: #F4F8FA;
+        text-align: center;
+    }
+    
+    .add-1 {
+        width: 25%;
+        text-align: left;
+        background-color: #F4F8FA;
+    }
+    
+    .img-1 {
+        width: 5%;
+        background-color: #F4F8FA;
+    }
+    
+    .data {
+        border: 2px solid#D5E2E8;
+        width: 55%;
+        padding: 2%;
+    }
+    
+    .luke {
+        font-size: 12px;
+        color: #747474;
+        padding-left: 1.5%;
+    }
+    
+    .attachment {
+        color: #505050;
+        font-size: 14px;
+        font-weight: 700;
+        padding-left: 1.5%;
+    }
+    
+    .lorem {
+        font-size: 10px;
+        color: #909090;
+        padding-left: 1.5%;
+    }
+    
+    .files {
+        background-color: #fff;
+        padding: 1% 2% 01% 2%;
+    }
+    
+    .sucesess {
+        color: #fff;
+        background-color: #32BDD2;
+        border: 1px solid #32BDD2;
+        width: 100%;
+        padding: 3% 0% 3% 0%;
+        border-radius: 20px;
+        float: right;
+        clear: right;
+        margin-right: 3%;
+    }
+    
+    .draft {
+        width: 87%;
+    }
+    
+    .back2 {
+        width: 8%;
+    }
+    
+    .down {
+        padding: 10% 0 2% 0;
+    }
+    
+    .save {
+        width: 10%;
+    }
+    
+    .save-draft {
+        width: fit-content;
+        padding: 5px;
+        font-weight: 700;
+        border-bottom: 2px solid #505050;
+        font-size: 10px;
+        color: #505050;
+        float: left;
+        clear: left;
+        vertical-align: middle;
+    }
+    
+    .padding {
+        padding: 2%;
+    }
+    
+    .back1 {
+        color: #32BDD2;
+        font-size: 12px;
+        border-bottom: 2px solid #32BDD2;
+        padding-bottom: 0.5%;
+        font-weight: 700;
+        text-align: center;
+    }

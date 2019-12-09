@@ -60,6 +60,26 @@
         font-size: 13px;
     }
     
+    .add {
+        color: #000;
+        font-size: 12px;
+        padding-bottom: 10%;
+    }
+    
+    .item {
+        width: 85%;
+        float: left;
+    }
+    
+    .people {
+        width: 15%;
+        float: right;
+    }
+    
+    .pluse-icon {
+        padding-top: 10%;
+    }
+    
     .reque {
         color: #000000;
         font-size: 14px;
@@ -92,7 +112,7 @@
     .sub-container-2 {
         background-color: #F0F0F0;
         width: 100%;
-        padding: 4%;
+        padding: 2% 4% 5% 4%;
     }
     
     .sub-container-3 {
@@ -127,7 +147,7 @@
         bottom: 0%;
         position: relative;
         left: 25%;
-        padding: 100% 0 78% 0;
+        padding:58% 0 78% 0;
     }
     
     .lorem {
@@ -139,7 +159,7 @@
         color: #000;
         font-size: 14px;
         font-weight: 700;
-        padding-bottom: 1%;
+        padding-bottom: 0.5%;
     }
     
     .save {
