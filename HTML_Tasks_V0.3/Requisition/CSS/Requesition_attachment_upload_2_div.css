@@ -95,29 +95,26 @@ p {
     padding: 4%;
 }
 
-.sub-container-3 {
-    background-color: #FFFFFF;
-}
-
 .main-container {
     margin: 1.5% 0% 1.5% 1.5%;
 }
 
-.sub-container-4 {
+.sub-container {
+    padding: 3% 01% 9% 3%;
     border: 1px solid #F0F0F0;
-    padding: 4% 4% 34% 4%;
+    background-color: #fff;
 }
 
 .browse {
     float: left;
-    width: 50%;
+    width: 40%;
     border: 2px solid #DFEBEF;
-    padding: 2.5%;
+    padding: 1.1%;
 }
 
 .drop {
-    width: 50%;
-    float: right;
+    width: 40%;
+    float: left;
     background-color: #32BDD2;
 }
 
@@ -128,8 +125,8 @@ p {
 .dot {
     bottom: 0%;
     position: relative;
-    left: 25%;
-    padding: 100% 0 114% 0;
+    left: 35%;
+    padding: 100% 0 70% 0;
 }
 
 .lorem {
@@ -158,7 +155,7 @@ p {
 
 .border {
     border: 1px dashed #fff;
-    margin: 5.6%;
+    margin: 5.3%;
 }
 
 .doc {
@@ -166,7 +163,7 @@ p {
 }
 
 .file {
-    padding: 0% 0 0% 43%;
+    padding: 0% 0 0% 47%;
     color: #fff;
     font-size: 90%;
 }
@@ -215,7 +212,7 @@ button {
 }
 
 .draft {
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .back {
@@ -243,9 +240,8 @@ button {
 
 .browse-sec {
     float: left;
-    width: 51%;
+    width: 40%;
     border: 2px solid #DFEBEF;
-    margin-top: 3%;
 }
 
 .error {
@@ -270,8 +266,10 @@ button {
     clear: left;
     color: #595959;
     font-size: 10px;
-    padding: 2%;
+    padding: 1%;
+    margin: 1%;
     border-radius: 3px;
+    background-color: #E0E0E0;
 }
 
 .description {
@@ -283,23 +281,61 @@ button {
 }
 
 .drop-2 {
-    width: 8%;
+    width: 10%;
     float: left;
-    border-top: 1.5px solid #DFEBEF;
-    border-right: 1.5px solid #DFEBEF;
-    border-bottom: 1.5px solid #DFEBEF;
-    padding: 1.2% 2.5% 1.5% 2.2%;
-    margin: 3% 0 0% 0%;
+    border: 1.5px solid #DFEBEF;
+    padding: 1.2% 2% 1.4% 4%;
 }
 
 .upload {
-    float: right;
+    text-align: center;
     background-color: #32BDD2;
     color: #fff;
     border: 1px solid #32BDD2;
     border-radius: 20px;
-    padding: 3% 0 3% 0;
+    padding: 5% 0 5% 0;
     font-size: 10px;
     font-weight: 700;
-    width: 50%;
+    width: 70%;
+}
+
+.round {
+    width: 2vw;
+    height: 2vw;
+    background-color: #00cccc;
+    border-color: black;
+    border-radius: 52%;
+    color: #fff;
+    text-align: center;
+    margin: 1px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.line {
+    margin-left: 13%;
+    border: 2px;
+    border-left: 2px dotted #F0F0F0;
+    height: 30px;
+}
+
+.round1 {
+    width: 2vw;
+    height: 2vw;
+    border: 1px solid #F0F0F0;
+    border-color: #F0F0F0;
+    border-radius: 52%;
+    color: #F0F0F0;
+    text-align: center;
+    margin: 1px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.loaded-files {
+    padding-top: 12%;
+}
+
+.loaded-files1 {
+    padding-top: 8%;
 }

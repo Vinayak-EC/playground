@@ -66,6 +66,7 @@ p {
     background-color: #FFFFFF;
     width: 8%;
     float: left;
+    clear: left;
 }
 
 .sub-cntnr1 {
@@ -79,7 +80,7 @@ p {
 }
 
 .sub-cntnr2 {
-    padding: 2.5% 2.5% 3.5% 2.5%;
+    padding: 2.5% 2.5% 7% 2.5%;
     background-color: #FCFCFC;
 }
 
@@ -91,12 +92,6 @@ p {
     transform: rotateZ(-90deg);
     top: 26%;
     position: absolute;
-}
-
-.dot {
-    bottom: 0%;
-    margin-left: 25%;
-    margin-top: 170%;
 }
 
 .note {
@@ -113,6 +108,43 @@ p {
 textarea {
     border-radius: 5px;
     background-color: #FCFCFC;
+}
+
+.round {
+    width: 1vw;
+    height: 1vw;
+    background-color: #00cccc;
+    border-color: black;
+    border-radius: 52%;
+    color: #fff;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.line {
+    margin-left: 20%;
+    border: 2px;
+    border-left: 2px dotted #F0F0F0;
+    height: 30px;
+}
+
+.round1 {
+    width: 1vw;
+    height: 1vw;
+    border: 1px solid #F0F0F0;
+    border-color: #F0F0F0;
+    border-radius: 52%;
+    color: #F0F0F0;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.dot {
+    padding: 190% 0% 40% 40%;
 }
 
 .self {
@@ -162,5 +194,5 @@ p1 {
 }
 
 .draft {
-    margin-top: 10%;
+    margin-top: 7.8%;
 }

@@ -146,6 +146,43 @@ p {
     border: 1px solid #f0f0f0;
 }
 
+.round {
+    width: 1vw;
+    height: 1vw;
+    background-color: #00cccc;
+    border-color: black;
+    border-radius: 52%;
+    color: #fff;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.line {
+    margin-left: 12%;
+    border: 2px;
+    border-left: 2px dotted #F0F0F0;
+    height: 30px;
+}
+
+.round1 {
+    width: 1vw;
+    height: 1vw;
+    border: 1px solid #F0F0F0;
+    border-color: #F0F0F0;
+    border-radius: 52%;
+    color: #F0F0F0;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.dot {
+    padding: 5% 0% 10% 10%;
+}
+
 .sub-container-last {
     background-color: #fff;
     width: 92%;
