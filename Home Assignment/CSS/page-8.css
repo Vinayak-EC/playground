@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F6F8F9;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.posh {
+    width: 85%;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: .7%;
+    padding: 1%;
+}
+
+.avatar {
+    width: 5%;
+    text-align: center;
+    padding-top: .7%;
+}
+
+.lucky {
+    width: 6%;
+    padding-top: 1.4%;
+}
+
+.carter {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.drop-down {
+    width: 4%;
+    padding-top: 1.4%;
+}
+
+.container {
+    padding: 2%;
+}
+
+.booking {
+    display: flex;
+    background-color: #fff;
+    padding: 2%;
+    border-bottom: 2px solid #9f9f9f;
+}
+
+.book {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.lorem {
+    font-size: 12px;
+    color: #494949;
+}
+
+.flex-items {
+    width: 50%;
+}
+
+.flex-items-1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.round {
+    width: 1vw;
+    height: 1vw;
+    background-color: #00cccc;
+    border-color: black;
+    border-radius: 52%;
+    color: #fff;
+    text-align: center;
+    margin: 1px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.round1 {
+    width: 1vw;
+    height: 1vw;
+    border: 1px solid #F0F0F0;
+    border-color: #F0F0F0;
+    border-radius: 52%;
+    color: #F0F0F0;
+    text-align: center;
+    margin: 1px;
+    padding: 7px;
+    font-size: 12px;
+}
+
+.package {
+    background-color: #fff;
+    padding: 3% 5% 3% 5%;
+}
+
+.close {
+    border: 1px solid #fff;
+}
+
+.allur {
+    display: flex;
+    background-color: #F6F8F9;
+    border: 1px solid #9f9f9f;
+    padding: 2%;
+}
+
+.flex-items-3 {
+    width: 80%;
+}
+
+.flex-items-2 {
+    padding: 1%;
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+.packges {
+    padding: 0% 2% 2% 2%;
+}
+
+.icon {
+    display: flex;
+    width: 100%;
+}
+
+.flex-items-4 {
+    width: 10%;
+}
+
+.flex-items-5 {
+    width: 80%;
+    margin: auto;
+}
+
+.flex-items-6 {
+    width: 10%;
+    margin: auto;
+}
+
+.center {
+    margin-top: auto;
+    text-align: center;
+    margin-top: 70%;
+}
+
+.num {
+    font-size: 14px;
+    text-align: end;
+}
+
+.gallery {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 2%;
+    padding: 1%;
+}
+
+.border {
+    border: 1px solid #9f9f9f;
+}
+
+.charges {
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 2px solid #00cccc;
+}
+
+.amenities {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 10%;
+}

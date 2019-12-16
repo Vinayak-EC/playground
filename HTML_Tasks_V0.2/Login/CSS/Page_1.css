@@ -1,54 +1,67 @@
 body{
-    font-family: calibri;
-   margin:25px;
+    margin: 0;
+    padding: 0%;
+background-color: #F6F8F9;
+font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container{
-    background-color: #F6F8F9;
-}
-.input-container{
-    border-radius: 5px;
-    border:1px solid #D3D3D3;
-    width: 140%;
-    height: 27px;
+.login{
+    color: #595959;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    border-bottom: 3px solid #595959;
+    float: left;
+    margin-bottom: 11%;
 }
 table{
-    background-color: #fff;
-    padding: 11% 41%  12% 40%;
-    border-radius:10px;
+    border-radius: 15px;
+    background: #fff;
+    padding: 8% 30%;
+        width: 94%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
 }
-
-.login{
-    text-decoration: underline;
-    padding-bottom: 10%;
-    font-size:16px;
+.email{
+    color: #505050;
+    font-size: 12px;
+    padding-bottom: 3px;
 }
-.password{
-padding-bottom: 30px;
+.input-container{
+    width:100%;
+    padding-top:2.5%;
+    padding-bottom: 2.5;
+    border-radius: 8px;
+    border: 1px solid #D3D3D3;
 }
-.login-button{
-   background-color: #32BDD2;
-   border: 1px;
-   height: 40.22px;
-   width: 130px;
-   border-radius:50px;
-   color:#fff;
-   margin-top: 30%;
-   font-size: 12px;
+.center{
+    margin-bottom: 10%;
 }
-.remember-left{
+.forgot{
+    float: right;
     font-size: 10px;
+    margin-top: 3%;
+    color: #707070;
+    border-bottom: 2px solid #707070;
+    width: fit-content;
+    text-decoration: none;
+    margin-bottom:12%;
+    padding-bottom: 3px;
 }
-
 .remember{
     font-size: 10px;
-    text-decoration:underline;
-    float: right;
+    margin-top: 4%;
+    color: #707070;
 }
-
-td{
+button{
+    background-color: #32BDD2;
+    color: #fff;
+    padding-top: 2.5%;
+    padding-bottom:2.5%;
+    width: 28%;
+    border: 1px solid #32bdd2;
+    border-radius: 25px;
+    font-weight: 700;
     font-size: 12px;
-    padding: 0px;
-}
-tr{
-    padding: 0px;
 }

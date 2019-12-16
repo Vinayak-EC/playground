@@ -1,0 +1,248 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #F6F8F9;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+    }
+    
+    .posh {
+        width: 87%;
+        vertical-align: middle;
+        padding: .3% 0 0 1.4%;
+    }
+    
+    .my-request {
+        width: 4%;
+        padding-top: 1.4%;
+        text-align: center;
+        font-size: 12px;
+        color: #494949;
+    }
+    
+    .avatar {
+        width: 5%;
+        text-align: center;
+        padding-top: .3%;
+    }
+    
+    .drop-down {
+        width: 4%;
+        padding-top: 1%;
+        text-align: center;
+    }
+    
+    .temp {
+        display: flex;
+        background-color: #fff;
+    }
+    
+    .container {
+        padding: 2%;
+    }
+    
+    .flex-item {
+        flex: 1 1 auto;
+        width: 30%;
+    }
+    
+    .draft {
+        width: 70%;
+    }
+    
+    .resnpodent {
+        color: #494949;
+        font-size: 12px;
+    }
+    
+    .sub-container {
+        display: flex;
+        width: 100%;
+    }
+    
+    .complates {
+        width: 100%;
+        display: flex;
+        padding: 3%;
+    }
+    
+    .border {
+        padding: 0 4% 0 4%;
+    }
+    
+    .holder {
+        width: 95%;
+        border: 0px;
+    }
+    
+    .search {
+        display: flex;
+        border: 1px solid gray;
+        border-radius: 20px;
+    }
+    
+    .request-icon {
+        padding-top: 9%;
+        text-align: right;
+    }
+    
+    .filter {
+        color: #32BDD2;
+        font-size: 14px;
+    }
+    
+    .icon {
+        width: 90%;
+        padding-left: 2%;
+        margin: auto;
+    }
+    
+    .cycling {
+        background-color: #fff;
+        padding: 3%;
+        border-bottom: 2px solid gray;
+    }
+    
+    .right-ero {
+        width: 50%;
+        margin: auto;
+        text-align: right;
+    }
+    
+    .text {
+        width: 50%;
+        display: flex;
+    }
+    
+    .cycling-1 {
+        padding: 5% 9% 3% 9%;
+    }
+    
+    .cycling-2 {
+        padding: 0% 9% 5% 9%;
+    }
+    
+    .intrest {
+        width: 10%;
+    }
+    
+    .search-icon {
+        width: 12%;
+        text-align: center;
+    }
+    
+    .place {
+        padding: 1%;
+        width: 88%;
+        text-align: center;
+    }
+    
+    .match {
+        float: right;
+        clear: right;
+        font-size: 12px;
+        padding-top: 1%;
+        font-weight: bold;
+    }
+    
+    .sub {
+        font-size: 16px;
+        font-weight: bold;
+        width: 88%;
+        text-align: right;
+        padding-top: 2%;
+    }
+    
+    .my {
+        border-top: 2px solid #cc0000;
+    }
+    
+    .people {
+        background-color: #F6F8F9;
+        padding: 15% 3% 3% 3%;
+        box-shadow: -1px 0px 3px 0px #aeaeae;
+    }
+    
+    .people-1 {
+        background-color: #F6F8F9;
+        padding: 5%;
+        box-shadow: -1px 0px 6px 0px #aeaeae;
+    }
+    
+    .profile {
+        padding: 5%;
+        box-shadow: -5px 5px 10px 0px #aeaeae;
+    }
+    
+    .community {
+        background-color: #fff;
+        padding: 2%;
+        border-bottom: 3px solid #F6F8F9;
+        box-shadow: 0 3px 6px #d1dbe0;
+    }
+    
+    .dec {
+        font-size: 15px;
+        color: #494949;
+    }
+    
+    .param {
+        font-size: 12px;
+        color: #494949;
+    }
+    
+    .table {
+        font-size: 12px;
+        color: #494949;
+        padding: 1% 0 1% 0;
+    }
+    
+    .jfif {
+        width: 20%;
+    }
+    
+    .deo {
+        width: 80%;
+        padding-left: 1%;
+    }
+    
+    .like {
+        display: flex;
+    }
+    
+    .avatar-2 {
+        width: 5%;
+    }
+    
+    .bar {
+        width: 90%;
+        margin-top: 2%;
+        padding-top: 0%;
+        border-top: 3px solid #32BDD2;
+    }
+    
+    .bar-2 {
+        width: 90%;
+        margin-top: 2%;
+        padding-top: 0%;
+    }
+    
+    .male {
+        font-size: 10px;
+    }
+    
+    .num {
+        float: right;
+        font-size: 10px;
+    }
+    
+    .back {
+        padding: 2% 2% 2% 10%;
+        color: #32BDD2;
+        font-size: 12px;
+    }

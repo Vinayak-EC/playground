@@ -1,0 +1,140 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #F6F8F9;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+    }
+    
+    .posh {
+        width: 76%;
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 26px;
+        padding-top: .7%;
+        padding: 1%;
+    }
+    
+    .noti {
+        width: 7%;
+        text-align: right;
+    }
+    
+    .avatar {
+        width: 5%;
+        text-align: center;
+        padding-top: .7%;
+    }
+    
+    .lucky {
+        width: 8%;
+        padding-top: 1.4%;
+    }
+    
+    .carter {
+        font-size: 16px;
+        vertical-align: middle;
+    }
+    
+    .drop-down {
+        width: 4%;
+        padding-top: 1.4%;
+    }
+    
+    .container {
+        display: flex;
+        padding: 2%;
+    }
+    
+    .flex-item {
+        width: 5%;
+        background-color: #fff;
+    }
+    
+    .flex-item-2 {
+        width: 95%;
+        background-color: #FCFCFC;
+        padding: 3% 3% 26% 3%;
+    }
+    
+    .attachment {
+        color: #505050;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .attachment1 {
+        color: #B5B5B5;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .lorem1 {
+        width: 50%;
+        font-size: 14px;
+        color: #505050;
+    }
+    
+    .round {
+        width: 1vw;
+        height: 1vw;
+        background-color: #00cccc;
+        border-color: black;
+        border-radius: 52%;
+        color: #fff;
+        text-align: center;
+        margin: 1px;
+        padding: 7px;
+        font-size: 12px;
+    }
+    
+    .line {
+        margin-left: 22%;
+        border: 2px;
+        border-left: 2px dotted #F0F0F0;
+        height: 30px;
+    }
+    
+    .round1 {
+        width: 1vw;
+        height: 1vw;
+        border: 1px solid #F0F0F0;
+        border-color: #F0F0F0;
+        border-radius: 52%;
+        color: #F0F0F0;
+        text-align: center;
+        margin: 1px;
+        padding: 7px;
+        font-size: 12px;
+    }
+    
+    .dot {
+        bottom: 0%;
+        position: relative;
+        padding: 50% 0 70% 0;
+        left: 30%;
+    }
+    
+    .reque {
+        color: #000000;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 2.8px;
+        transform: rotateZ(-90deg);
+        position: relative;
+        margin-top: 150%;
+    }
+    
+    .pdf {
+        font-size: 14px;
+        color: #505050;
+        border-bottom: 2px solid #000;
+        width: fit-content;
+        text-align: center;
+        padding-bottom: .3%;
+    }

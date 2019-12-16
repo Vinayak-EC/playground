@@ -1,0 +1,167 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background-color: #F6F8F9; 
+} 
+ 
+.nav { 
+    display: flex; 
+    flex-direction: row; 
+    background-color: #fff; 
+} 
+ 
+.posh { 
+    width: 85%; 
+    vertical-align: middle; 
+    font-weight: bold; 
+    font-size: 26px; 
+    padding-top: .7%; 
+    padding: 1%; 
+} 
+ 
+.avatar { 
+    width: 5%; 
+    text-align: center; 
+    padding-top: .7%; 
+} 
+ 
+.lucky { 
+    width: 6%; 
+    padding-top: 1.4%; 
+} 
+ 
+.carter { 
+    font-size: 16px; 
+    vertical-align: middle; 
+} 
+ 
+.drop-down { 
+    width: 4%; 
+    padding-top: 1.4%; 
+} 
+ 
+.complates { 
+    background-color: #fff; 
+    padding: 2%; 
+    border-bottom: 1px solid #9f9f9f; 
+} 
+ 
+.rent { 
+    font-size: 18px; 
+    font-weight: bold; 
+} 
+ 
+.param { 
+    font-size: 12px; 
+    color: #494949; 
+} 
+ 
+.abc { 
+    font-size: 12px; 
+    color: #2c2c2c; 
+} 
+ 
+.jun { 
+    display: flex; 
+    border-bottom: 1px solid #9f9f9f; 
+    padding: 1.5%; 
+} 
+ 
+.jun-1 { 
+    display: flex; 
+    padding: 1.5%; 
+} 
+ 
+.right { 
+    width: 50%; 
+} 
+ 
+.left { 
+    width: 50%; 
+    margin: auto; 
+    text-align: right; 
+} 
+ 
+.temp { 
+    display: flex; 
+} 
+ 
+.flex-items { 
+    width: 50%; 
+} 
+ 
+.flex-items-1 { 
+    width: 50%; 
+    text-align: right; 
+} 
+ 
+.package { 
+    width: 25%; 
+    margin: auto; 
+} 
+ 
+.unit { 
+    width: 40%; 
+    margin: auto; 
+} 
+ 
+.mounth { 
+    width: 35%; 
+    margin: auto; 
+} 
+ 
+.all { 
+    background-color: #fff; 
+    padding: 2%; 
+} 
+ 
+.overall { 
+    background-color: #F6F8F9; 
+    border-radius: 10px; 
+} 
+ 
+.border-1 { 
+    border-bottom: 1px solid #9f9f9f; 
+    border-left: 1px solid #9f9f9f; 
+    border-right: 1px solid #9f9f9f; 
+    padding: 2%; 
+    background-color: #fff; 
+} 
+ 
+.border { 
+    border: 1px solid #9f9f9f; 
+    padding: 2%; 
+    background-color: #fff; 
+} 
+ 
+.padding { 
+    padding: 2% 2% 0% 2%; 
+    background-color: #fff; 
+} 
+ 
+.padding-1 { 
+    padding: 0% 2% 2% 2%; 
+    background-color: #fff; 
+} 
+ 
+.container { 
+    padding: 2%; 
+} 
+ 
+.resnpodent { 
+    color: #494949; 
+    font-size: 12px; 
+} 
+ 
+.last { 
+    color: #494949; 
+    font-size: 12px; 
+    padding-top: 5%; 
+} 
+ 
+.nishant { 
+    color: 1d1d1d; 
+    font-size: 12px; 
+    font-weight: bold; 
+}
