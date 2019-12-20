@@ -41,25 +41,47 @@ body {
 .group {
     zoom: 1;
     background-color: #fff;
-    padding: .5%;
+    border-bottom: 1px solid gray;
+    padding: 2%;
     /* For IE 6/7 */
 }
 
 
 /*  GRID OF TEN  */
 
+.span_13_of_10 {
+    width: 45%;
+    text-align: right;
+}
+
+.span_12_of_10 {
+    width: 10%;
+    margin-top: auto;
+    text-align: center;
+}
+
+.span_11_of_10 {
+    width: 45%;
+    text-align: left;
+}
+
+.span_10_of_10 {
+    width: 10%;
+    text-align: right;
+}
+
 .span_9_of_10 {
-    width: 14%;
+    width: 80%;
     text-align: center;
 }
 
 .span_8_of_10 {
-    width: 14%;
+    width: 20%;
     text-align: center;
 }
 
 .span_7_of_10 {
-    width: 70%;
+    width: 60%;
     text-align: center;
 }
 
@@ -147,4 +169,25 @@ input {
 .check {
     border-bottom: 2px solid #32BDD2;
     padding-bottom: .5%;
+}
+
+.search {
+    border: 1px solid red;
+}
+
+.pramod {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.male {
+    font-size: 12px;
+}
+
+.tranction {
+    font-size: 10px;
+}
+
+.number {
+    padding-top: 10%;
 }

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+           >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="440dp"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:divider="@android:drawable/ic_dialog_alert"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:text="@string/log_in"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:autofillHints=""
+                    android:background="@drawable/border"
+                    android:ems="10"
+                    android:hint="@string/e_mail"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/error_msg"
+                    android:textColor="@color/error_msg_clr" />
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:background="@drawable/border_password"
+                    android:drawableRight="@android:drawable/ic_menu_view"
+                    android:ems="10"
+                    android:hint="@string/password"
+                    android:inputType="textPassword" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/error_msg"
+                    android:textColor="@color/error_msg_clr" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="end"
+                    android:layout_marginBottom="30dp"
+                    android:text="@string/foegot_password"
+                    android:textAlignment="textEnd" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="154dp"
+                    android:layout_height="50dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginLeft="80dp"
+                    android:background="@drawable/log_in_botton"
+                    android:text="@string/button_name"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
