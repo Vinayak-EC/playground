@@ -12,6 +12,10 @@ body {
     background-color: #fff;
 }
 
+div {
+    overflow: hidden;
+}
+
 .menu {
     width: 82%;
     float: left;
@@ -80,7 +84,7 @@ p {
 }
 
 .sub-cntnr2 {
-    padding: 2.5% 2.5% 7% 2.5%;
+    padding: 2.5% 2.5% 1.7% 2.5%;
     background-color: #FCFCFC;
 }
 
