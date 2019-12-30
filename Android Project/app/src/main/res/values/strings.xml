@@ -12,4 +12,21 @@
     <string name="conti">CONTINUE</string>
     <string name="error_1">This is not a valid email.</string>
     <string name="error_2">This email is not registered with us.</string>
+    <string name="error_3">Error message</string>
+    <string name="Forgot">FORGOT PASSWORD</string>
+    <string name="sucesess_message">The link has been sent to your email. The generated link will be active for 24 hours.</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">CLEAR</string>
+    <string name="approved">APPROVED</string>
+    <string name="draft">DRAFT</string>
+    <string name="awaiting">AWAITING</string>
+    <string name="rejected">REJECTED</string>
+    <string name="my">My Requests</string>
+    <string name="new_re">NEW REQUEST</string>
+    <string name="filter">FILTER</string>
+    <string name="showing">Showing approved requests.</string>
+    <string name="pur">PUR - 2019 - 056</string>
+    <string name="sub">Submitted on</string>
+    <string name="july">06 Jul 2019</string>
+    <string name="app">APPROVED</string>
 </resources>
