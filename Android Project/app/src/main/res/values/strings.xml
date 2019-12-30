@@ -29,4 +29,14 @@
     <string name="sub">Submitted on</string>
     <string name="july">06 Jul 2019</string>
     <string name="app">APPROVED</string>
+    <string name="show">SHOW MORE</string>
+    <string name="approvel">AWAITING APPROVAL</string>
+    <string name="req">REQUISITION</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+
 </resources>

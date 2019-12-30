@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F6F8F9;
+}
+
+div {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.menu {
+    width: 82%;
+    float: left;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.avatar {
+    width: 10%;
+    float: right;
+    background-color: #fff;
+}
+
+.john {
+    width: 5%;
+    float: right;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.aero {
+    width: 3%;
+    float: right;
+    background-color: #fff;
+    margin-top: 2%;
+}
+
+.menu1 {
+    padding-left: 1%;
+}
+
+.aero1 {
+    text-align: left;
+}
+
+.avatar1 {
+    text-align: right;
+}
+
+.john1 {
+    text-align: center;
+    color: #595959;
+    font-size: 13px;
+}
+
+.sub-cntnr0 {
+    margin-top: 5%;
+    width: 5%;
+    float: left;
+    text-align: center;
+    box-shadow: 0px 3px 6px #00000029;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sub-cntnr1 {
+    width: 98%;
+    float: right;
+}
+
+.sub-container-2 {
+    background-color: #245070;
+    width: 92%;
+    padding: 4% 4% 8% 4%;
+    z-index: 0;
+}
+
+.note {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.request {
+    font-size: 14px;
+    font-weight: bold;
+    color: #909090;
+}
+
+.overlay {
+    background-color: #FCFDFF;
+    width: 70%;
+    box-shadow: 0px 3px 6px #A3A3C45A;
+    padding: 2%;
+    border-radius: 80px;
+    top: 40%;
+    left: 16%;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+}
+
+.pur {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.sub {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.awaiting {
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+
+.view {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.ipsum {
+    color: #747474;
+    font-size: 12px;
+}
+
+.main-container {
+    padding: 2%;
+}
+
+.lorem {
+    color: #fff;
+    font-size: 12px;
+}
+
+.sub-container-3 {
+    background-color: #fff;
+    width: 100%;
+    padding: 3% 0 3% 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.line {
+    padding: 0% 10% 0% 3%;
+    background-color: #fff;
+}
+
+.sub-container-4 {
+    background-color: #fff;
+    padding: 3%;
+    z-index: 0;
+}
+
+.sub-container-last {
+    background-color: #fff;
+    width: 92%;
+    padding: 3% 3.8% 3% 4%;
+    border: 1px solid #f0f0f0;
+}
+
+.ibm {
+    width: 40%;
+    float: left;
+    color: #747474;
+    font-size: 12px;
+}
+
+.tower {
+    text-align: left;
+    width: 40%;
+    color: #747474;
+    font-size: 12px;
+    letter-spacing: 0.78px;
+}
+
+.think {
+    width: 20%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.jul {
+    width: 20%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.rs {
+    width: 20%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.home {
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.icons {
+    padding: 35%;
+}
+
+.icons-1 {
+    padding: 35%;
+    background-color: #245070;
+    border-top-left-radius: 15px;
+}
+
+.home-icon {
+    padding: 35%;
+    border-right: 6px solid #E6AF2E;
+}
+
+.attachment {
+    padding: 3%;
+}
+
+.browse-sec {
+    width: 40%;
+    border: 2px solid #D5E2E8;
+    margin-top: 2%;
+}
+
+.kb {
+    width: 60%;
+    float: left;
+    clear: left;
+    color: #595959;
+    font-size: 10px;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 3px;
+}
+
+.description {
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    padding: 2%;
+    border-top: 2px solid #DFEBEF;
+}
+
+.abc {
+    width: 80%;
+    float: left;
+}
+
+.doc {
+    width: 20%;
+    float: right;
+}
+
+.browse {
+    width: 40%;
+    border: 2px solid #E0E0E0;
+    padding: 1% 2% 1% 2%;
+    margin-top: 2%;
+}
+
+.luke {
+    width: 10%;
+    float: left;
+    padding-right: 3%;
+}
+
+.daisy {
+    width: 30%;
+    color: #747474;
+    font-size: 12px;
+    float: left;
+}
+
+.ipsum {
+    color: #747474;
+    font-size: 10px;
+}
+
+.ray {
+    color: #747474;
+    font-size: 12px;
+}

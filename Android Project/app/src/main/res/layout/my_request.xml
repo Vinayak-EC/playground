@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<LinearLayout
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:background="#F6F8F9"
+        android:background="@drawable/menu_border"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
@@ -34,7 +40,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="202dp"
-            android:background="#FDFDFD"
+            android:background="@drawable/my_border"
             android:orientation="vertical">
 
             <LinearLayout
@@ -48,7 +54,7 @@
                 android:paddingBottom="20sp">
 
                 <TextView
-                    android:layout_width="186dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:padding="20sp"
@@ -57,11 +63,12 @@
                     android:textSize="20sp" />
 
                 <Button
-                    android:layout_width="188dp"
+                    android:layout_width="173dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="end"
                     android:background="@drawable/new_request"
                     android:padding="20sp"
+                    android:text="@string/new_re"
                     android:textColor="#ffffff"
                     android:textSize="14sp"
                     tools:text="@string/new_re" />
@@ -157,7 +164,91 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
-                android:background="@drawable/border">
+                android:background="@drawable/border"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="242dp"
+                    android:layout_height="107dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10sp"
+                        android:text="@string/pur"
+                        android:textColor="#595959"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sub"
+                        android:textColor="#909090"
+                        android:textSize="12dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/july"
+                        android:textColor="#595959"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/yellow_dot" />
+
+                        <LinearLayout
+                            android:layout_width="152dp"
+                            android:layout_height="38dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="230dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="15sp"
+                                android:text="@string/approvel"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="145dp"
+                    android:layout_height="99dp"
+                    android:layout_gravity="center_vertical|end"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center|center_vertical"
+                        android:src="@drawable/noti" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:background="@drawable/border"
+                android:padding="20dp">
 
                 <LinearLayout
                     android:layout_width="242dp"
@@ -239,7 +330,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
-                android:background="@drawable/border">
+                android:background="@drawable/border"
+                android:padding="20dp">
 
                 <LinearLayout
                     android:layout_width="242dp"
@@ -272,8 +364,8 @@
                         android:textStyle="bold" />
 
                     <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_width="235dp"
+                        android:layout_height="48dp"
                         android:layout_gravity="center"
                         android:gravity="center_vertical"
                         android:orientation="horizontal">
@@ -281,7 +373,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/green_round" />
+                            android:background="@drawable/lemon_dot" />
 
                         <LinearLayout
                             android:layout_width="152dp"
@@ -293,7 +385,7 @@
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
                                 android:paddingLeft="15sp"
-                                android:text="@string/approved"
+                                android:text="@string/draft"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -321,7 +413,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
-                android:background="@drawable/border">
+                android:background="@drawable/border"
+                android:padding="20dp">
 
                 <LinearLayout
                     android:layout_width="242dp"
@@ -363,7 +456,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/green_round" />
+                            android:background="@drawable/red_dot" />
 
                         <LinearLayout
                             android:layout_width="152dp"
@@ -375,89 +468,7 @@
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
                                 android:paddingLeft="15sp"
-                                android:text="@string/approved"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="145dp"
-                    android:layout_height="99dp"
-                    android:layout_gravity="center_vertical|end"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center|center_vertical"
-                        android:src="@drawable/noti" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="140dp"
-                android:background="@drawable/border">
-
-                <LinearLayout
-                    android:layout_width="242dp"
-                    android:layout_height="107dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="10sp"
-                        android:text="@string/pur"
-                        android:textColor="#595959"
-                        android:textSize="14dp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/sub"
-                        android:textColor="#909090"
-                        android:textSize="12dp"
-                        android:textStyle="normal" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/july"
-                        android:textColor="#595959"
-                        android:textSize="14dp"
-                        android:textStyle="bold" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/green_round" />
-
-                        <LinearLayout
-                            android:layout_width="152dp"
-                            android:layout_height="38dp"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
-                                android:gravity="center_vertical"
-                                android:paddingLeft="15sp"
-                                android:text="@string/approved"
+                                android:text="@string/rejected"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
                         </LinearLayout>
@@ -484,11 +495,32 @@
 
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"></LinearLayout>
+            android:layout_height="71dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="42dp"
+                android:gravity="center_vertical|end"
+                android:text="@string/show"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="46dp"
+                android:gravity="start|center_vertical"
+                android:paddingLeft="10dp"
+                android:src="@drawable/down_ero" />
+
+
+        </LinearLayout>
 
 
     </LinearLayout>
 </LinearLayout>
+</ScrollView>

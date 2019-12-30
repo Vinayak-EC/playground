@@ -5,6 +5,10 @@ body {
     background-color: #F6F8F9;
 }
 
+div {
+    overflow: hidden;
+}
+
 .container {
     width: 99%;
     overflow: hidden;
@@ -87,7 +91,7 @@ p {
 
 .reque {
     color: #000000;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 2.8px;
     transform: rotateZ(-90deg);
@@ -105,7 +109,7 @@ p {
     position: relative;
     left: 25%;
     bottom: 200%;
-    margin: 100% 0 502% 0;
+    margin: 100% 0 690% 0;
 }
 
 .note {
@@ -179,10 +183,6 @@ p {
     font-size: 12px;
 }
 
-.dot {
-    padding: 5% 0% 10% 10%;
-}
-
 .sub-container-last {
     background-color: #fff;
     width: 92%;
@@ -199,6 +199,7 @@ p {
 
 .tower {
     text-align: left;
+    width: 70%;
 }
 
 .tower1 {

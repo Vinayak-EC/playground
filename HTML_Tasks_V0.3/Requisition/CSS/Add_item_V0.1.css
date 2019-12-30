@@ -12,18 +12,42 @@
                     .header {
                         background-color: #FCFCFC;
                         box-shadow: 0 3px 6px #00000029;
-                        padding: 4% 0 3% 4%;
+                        padding: 6% 0 10% 8%;
                         border-top-left-radius: 25px;
                         border-top-right-radius: 25px;
                         border-top-left-radius: 25px;
                         border-top-right-radius: 25px;
+                        width: 100%;
                     }
                     
                     .item {
                         color: #5A5A5A;
                         font-size: 20px;
-                        margin-right: 71%;
                         float: left;
+                    }
+                    
+                    .img {
+                        width: 30%;
+                        float: right;
+                    }
+                    
+                    img {
+                        float: right;
+                        margin-right: 10%;
+                    }
+                    
+                    .due {
+                        width: 100%;
+                    }
+                    
+                    .date {
+                        width: 70%;
+                        float: left;
+                    }
+                    
+                    .time {
+                        width: 40%;
+                        float: right;
                     }
                     
                     .container {

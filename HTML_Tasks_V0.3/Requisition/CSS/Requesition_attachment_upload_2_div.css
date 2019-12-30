@@ -170,6 +170,11 @@ p {
 
 .doc {
     float: right;
+width:40%;
+text-align:right;
+
+    color: #595959;
+    font-size: 10px;
 }
 
 .file {
@@ -268,16 +273,18 @@ button {
 }
 
 .kb {
-    width: 60%;
-    float: left;
-    clear: left;
-    color: #595959;
-    font-size: 10px;
-    padding: 1%;
+    width: 100%;
+    padding: 2%;
     margin: 1%;
     border-radius: 3px;
 }
-
+.abc{
+width: 60%;
+float: left;
+    clear: left;
+    color: #595959;
+    font-size: 10px;
+}
 .kb-1 {
     width: 60%;
     float: left;
@@ -311,7 +318,7 @@ button {
     float: left;
     border: 1.5px solid #DFEBEF;
     text-align: center;
-    padding: 1%;
+    padding: 1.6%;
 }
 
 .upload {

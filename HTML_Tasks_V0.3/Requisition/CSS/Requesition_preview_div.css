@@ -1,0 +1,434 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F6F8F9;
+}
+
+div {
+    overflow: hidden;
+}
+
+.container {
+    width: 99%;
+    overflow: hidden;
+    padding: 0.5%;
+    background-color: #fff;
+}
+
+.menu {
+    width: 82%;
+    float: left;
+    background-color: #fff;
+}
+
+.avatar {
+    width: 10%;
+    float: right;
+    background-color: #fff;
+}
+
+.john {
+    width: 5%;
+    float: right;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.aero {
+    width: 3%;
+    float: right;
+    background-color: #fff;
+    margin-top: 1%;
+}
+
+.menu1 {
+    padding-left: 1%;
+}
+
+.aero1 {
+    text-align: left;
+}
+
+.avatar1 {
+    text-align: right;
+}
+
+.john1 {
+    text-align: center;
+    color: #595959;
+    font-size: 13px;
+}
+
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.sub-cntnr0 {
+    background-color: #FFFFFF;
+    width: 8%;
+    float: left;
+}
+
+.sub-cntnr1 {
+    background-color: #FCFCFC;
+    width: 86%;
+    padding: 3% 4% 2% 2%;
+    float: right;
+}
+
+.sub-container-2 {
+    background-color: #F0F0F0;
+    width: 92%;
+    padding: 4% 4% 7% 4%;
+}
+
+.main-container {
+    padding: 1.5%;
+}
+
+.reque {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    transform: rotateZ(-90deg);
+    position: relative;
+    margin-top: 127%;
+}
+
+.lorem {
+    color: #747474;
+    font-size: 12px;
+    width: 50%;
+}
+
+.ipsum {
+    color: #747474;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.ipsum-preiew {
+    color: #747474;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+.dot {
+    bottom: 0%;
+    position: relative;
+    left: 33%;
+    bottom: 200%;
+    margin: 100% 0 1885% 0;
+}
+
+.note {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.previw {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.item {
+    width: 85%;
+    float: left;
+    padding: 1% 2% 2% 2%;
+}
+
+.add-items {
+    float: left;
+    width: 10%;
+    font-size: 12px;
+    color: #505050;
+}
+
+.add {
+    float: right;
+    margin: 12% 12% 0 0;
+}
+
+.image-size {
+    width: 5%;
+    float: right;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sub-container-3 {
+    width: 92%;
+    padding: 5% 2% 5% 2%;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.daptec {
+    width: 92%;
+    padding: 5% 2% 1% 2%;
+}
+
+.invites {
+    width: 92%;
+    padding: 5% 2% 1% 2%;
+}
+
+.round {
+    width: 1vw;
+    height: 1vw;
+    background-color: #00cccc;
+    border-color: black;
+    border-radius: 52%;
+    color: #fff;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.line {
+    margin-left: 12%;
+    border: 2px;
+    border-left: 2px dotted #F0F0F0;
+    height: 30px;
+}
+
+.round1 {
+    width: 1vw;
+    height: 1vw;
+    border: 1px solid #F0F0F0;
+    border-color: #F0F0F0;
+    border-radius: 52%;
+    color: #F0F0F0;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sub-container-last {
+    background-color: #fff;
+    width: 92%;
+    padding: 3% 3.8% 3% 4%;
+    border: 1px solid #f0f0f0;
+}
+
+.ibm {
+    width: 55%;
+    float: left;
+    color: #747474;
+    font-size: 12px;
+}
+
+.tower {
+    text-align: left;
+    width: 80%;
+}
+
+.tower1 {
+    text-align: left;
+    padding-top: 1%;
+}
+
+.read {
+    font-size: 12px;
+    color: #747474;
+    padding-top: 3%;
+}
+
+.think {
+    width: 13%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.jul {
+    width: 22%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.rs {
+    width: 10%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.think1 {
+    width: 13%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 1%;
+}
+
+.jul1 {
+    width: 22%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 1%;
+}
+
+.rs1 {
+    width: 20%;
+    float: left;
+    color: #707070;
+    font-size: 12px;
+    padding-top: 1%;
+}
+
+.save {
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    width: fit-content;
+}
+
+button {
+    float: right;
+    background-color: #32BDD2;
+    color: #fff;
+    border: 1px solid #32BDD2;
+    border-radius: 20px;
+    padding: 5% 0 3% 0;
+    font-size: 10px;
+    font-weight: 700;
+    width: 60%;
+}
+
+.save {
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    width: fit-content;
+}
+
+.draft {
+    margin-top: 10%;
+}
+
+.back {
+    text-align: center;
+    width: 15%;
+    color: #32BDD2;
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 2px solid #32BDD2;
+    width: fit-content;
+    float: left;
+    margin-left: 4%;
+}
+
+.save-draft {
+    width: 82%;
+    float: left;
+}
+
+.image {
+    width: 8%;
+    float: right;
+    margin-bottom: 2%;
+}
+
+.sub-container-4 {
+    padding: 3% 3% 8% 3%;
+}
+
+.browse {
+    float: left;
+    width: 48%;
+    border: 2px solid #E0E0E0;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+.luke {
+    width: 10%;
+    float: left;
+}
+
+.content {
+    float: left;
+    width: 90%;
+}
+
+.daisy {
+    width: 30%;
+    color: #747474;
+    font-size: 12px;
+    padding-top: 1%;
+}
+
+.loaded-files {
+    padding-top: 3%;
+}
+
+.loaded-files1 {
+    padding-top: 2.5%;
+}
+
+.kb {
+    width: 100%;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 3px;
+}
+
+.abc {
+    width: 50%;
+    float: left;
+    clear: left;
+    color: #595959;
+    font-size: 10px;
+}
+
+.description {
+    float: left;
+    width: 100%;
+    font-size: 10px;
+    padding: 2%;
+    border-top: 2px solid #E0E0E0;
+}
+
+.doc {
+    width: 30%;
+    text-align: right;
+    color: #595959;
+    font-size: 10px;
+}
+
+.browse-sec {
+    float: left;
+    width: 55%;
+    border: 2px solid #E0E0E0;
+}
