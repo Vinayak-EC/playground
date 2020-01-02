@@ -38,5 +38,14 @@
     <string name="four">4</string>
     <string name="five">5</string>
     <string name="six">6</string>
-
+    <string name="dash">- - - - -</string>
+    <string name="note">NOTE</string>
+    <string name="loren">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula.</string>
+    <string name="reject">REQUEST TYPE</string>
+    <string name="self">SELF</string>
+    <string name="team">TEAM / DEPARTMENT / BRANCH</string>
+    <string name="some">SOMEONE ELSE</string>
+    <string name="save">SAVE DRAFT</string>
+    <string name="nxt">NEXT</string>
+    <string name="menu">menu</string>
 </resources>
