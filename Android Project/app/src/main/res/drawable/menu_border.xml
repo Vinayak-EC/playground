@@ -3,17 +3,16 @@
     <stroke
         android:width="2dp"
         android:color="#cdcdcd"
-        android:background="#F6F8F9"
+        android:background="@color/menu_bar_color"
         android:layout_width="match_parent"
         />
-    <corner
-        android:radius="20dp"
-        />
-    <padding
-        android:top="15dp"
-        android:right="5dp"
-        android:bottom="15dp"
-        android:left="15dp"
-        />
 
+   <solid android:color="@color/menu_bar_color"/>
 </shape>
+
+
+
+
+
+
+

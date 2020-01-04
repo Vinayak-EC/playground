@@ -3,7 +3,6 @@
 
     <item android:state_pressed="true"
         android:drawable="@drawable/pressesed_radius">
-
     </item>
 
     <item android:drawable="@drawable/button_style" />
