@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">recycler_view</string>
+    <string name="add_approver">Add Approver</string>
+    <string name="search">Search</string>
+    <string name="image">image</string>
+    <string name="cancel">CANCEL</string>
+    <string name="none">None selected</string>
+    <string name="done">DONE</string>
+
+</resources>

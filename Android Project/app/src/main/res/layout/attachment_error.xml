@@ -7,18 +7,18 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="86dp"
+        android:layout_height="80dp"
         android:background="@drawable/menu_border">
 
         <ImageView
-            android:layout_width="108dp"
-            android:layout_height="60dp"
+            android:layout_width="103dp"
+            android:layout_height="49dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="15dp"
             android:contentDescription="@string/Forgot"
             android:src="@drawable/menu" />
     </RelativeLayout>
@@ -295,11 +295,13 @@
             android:layout_marginBottom="-33dp"
             android:layout_toRightOf="@+id/R2"
             android:background="@color/upload"
+            android:gravity="center_horizontal"
             android:padding="30dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="@string/upload"
                 android:textColor="@color/white"
                 android:textSize="14dp" />

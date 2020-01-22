@@ -21,4 +21,6 @@
     <color name="kb">#595959</color>
     <color name="upload">#32BDD2</color>
     <color name="error">#FFF5F5</color>
+    <color name="black">#000000</color>
+    <color name="border_bottom">#E5E5E5</color>
 </resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Marerial design</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_next">Next</string>
+</resources>

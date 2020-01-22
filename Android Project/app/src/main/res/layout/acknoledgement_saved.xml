@@ -192,12 +192,11 @@
                 android:layout_marginLeft="325dp"
                 android:layout_marginBottom="71dp"
                 android:text="@string/dash" />
-
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="465dp">
+            android:layout_height="447dp">
 
 
             <TextView
@@ -206,8 +205,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="22dp"
-                android:layout_marginTop="22dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="24dp"
                 android:text="@string/ack"
                 android:textColor="@color/attachment"
                 android:textSize="18sp"
@@ -220,7 +219,7 @@
                 android:layout_alignBottom="@+id/T1"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="-36dp"
-                android:text="@string/registred"
+                android:text="@string/saved"
                 android:textColor="@color/attachment"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -231,14 +230,10 @@
                 android:layout_height="171dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginStart="18dp"
                 android:layout_marginLeft="18dp"
-                android:layout_marginEnd="113dp"
-                android:layout_marginRight="113dp"
-                android:layout_marginBottom="170dp"
+                android:layout_marginBottom="174dp"
                 android:text="@string/content"
                 android:textColor="@color/loren_text_color"
                 android:textSize="16sp" />

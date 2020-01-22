@@ -73,5 +73,10 @@
     <string name="kb">976KB    </string>
     <string name="upload">UPLOAD</string>
     <string name="write">write the description…</string>
-    <string name="error_msg">This field is required.</string>
+    <string name="preview">PREVIEW</string>
+    <string name="type">REQUEST TYPE - SELF</string>
+    <string name="thinkcenter">Lenovo ThinkServer TS450 (PN:70M2001VIH) With Max. Processor 1 x Intel Xeon E3 (Quad Core) E3-1225 v5”(3.3 GHz /Cache 8 MB)/ STD MEMORY 8GB X 1 MAX. MEMORY 64GB; 4 DIMM Memory Slots/ HARD DRIVE Open Bay/ 2.5” SAS/SATA HS Bays (8 bay MAX. HDD BAY upto 8 x 2.5” bay MAX. HDD BAY upto 16x2.5”)/OPTICAL Multi Burner/ PCIe RAID 0,1,10 (RAID 520i). Supports SAS  SATA drives/Power Supply Standard (Inbuilt) 1 x 450W Power Supply /Max: 2</string>
+    <string name="controller">daptec 128 MB Raid Controller Pair. Pci-e SAS/SATA</string>
+    <string name="saved">Your request has been saved as draft.</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur…</string>
 </resources>
